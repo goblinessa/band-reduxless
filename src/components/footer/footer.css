@@ -1,0 +1,18 @@
+.footer {
+    margin-top: 5%;
+    margin-bottom: 20px;
+    max-height: 40px;
+    border-top: 1px solid #333;
+    
+    color: #797979;        
+    text-align: center;   
+    padding-top: 20px;       
+    position: relative;    
+    bottom: 0;              
+    width: 100%;          
+    font-size: 14px;      
+}
+
+.credits:hover{
+    color: #fff;
+}

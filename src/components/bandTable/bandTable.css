@@ -1,0 +1,98 @@
+.band-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 2%;
+    
+}
+.delete-button {
+    color: #1C1B1F; 
+
+    background-color: #DEBD24;
+    border: none;
+    width:  40px;
+    height: 40px;
+    border-radius: 4px; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.delete-button:hover {
+    background-color: #5FAD41;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    
+}
+
+th, td {
+    
+    padding: 12px 15px; 
+    border: 1px solid #333; 
+    text-align: center;
+}
+
+th {
+    background-color: #DEBD24; 
+    color: #000; 
+
+    font-weight: bold;
+}
+.no-data {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    font-size: 1.5rem; /* Font size for the text */
+    color: #555; /* Text color */
+    text-align: center; /* Center text alignment */
+}
+
+.member-list {
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.member-list li {
+    width: 100%; 
+    max-width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+td {
+    background-color: transparent;
+    color: #fff;
+}
+
+.button-cell {
+    text-align: center; /* Center the delete button in the cell */
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 8px; /* Reduce padding for smaller screens */
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .delete-button {
+        width: 30px; /* Smaller delete button */
+        height: 30px; /* Smaller delete button */
+        font-size: 10px; /* Smaller font size */
+    }
+}

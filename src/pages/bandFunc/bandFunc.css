@@ -1,0 +1,7 @@
+.band-func hr{
+    border-top: 1px solid #ccc;
+}
+.band-func{
+    flex-grow: 1;
+    color:white;
+}
